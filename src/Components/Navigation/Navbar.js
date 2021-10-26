@@ -6,9 +6,9 @@ import Hidden from "@material-ui/core/Hidden";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import { Link } from "react-router-dom";
-
 import NavLink from "./NavLink";
 import CartButton from "./CartButton";
+import pic from '../Navigation/logo.jpg'
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -39,7 +39,7 @@ const Navbar = ({ onMenuClickHandler }) => {
       <AppBar position="sticky" className={classes.appBar}>
         <Toolbar className={classes.container}>
           <Link to="/">
-            <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRls03tEwrX4NS2EZvv8YRiglVmYKOYUUqB4Q&usqp=CAU" alt="logo" width="128px" />
+            <img  src={pic} alt="logo" width="128px" />
           </Link>
           <Hidden xsDown>
             <div className={classes.links}>
