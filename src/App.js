@@ -14,7 +14,6 @@ import { products as mockProducts } from "./utils/mockData";
 import ProductDetailPage from "./Pages/ProductDetailPage/ProductDetail";
 import HomePage from "./Pages/HomePage/Home";
 
-// const dataURL = "https://shoe-store-api-bc2020.herokuapp.com/products/";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -56,7 +55,7 @@ function App() {
           {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
       ) : (
-        <p>Fetching data...</p>
+        <p>Fetching data....</p>
       )}
 
       <Footer />

@@ -1,3 +1,3 @@
-export const facebookURL = "https://www.facebook.com/?_rdc=1&_rdr";
+export const facebookURL = "https://www.facebook.com/ans.riaz.50/";
 export const githubURL = "https://github.com/Muhammadansriaz";
 export const linkedInURL = "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fans-riaz-28b537220%3Ffbclid%3DIwAR37hN-ZyEYWSM0hiu5wq56i_OQaVK26yDgjC4Tboh8JqEDnadZ3kBMH7UQ&h=AT2RzPLDLQCyY1SxV-QyiO1JEAh6SPCtVFbwcxV5t9a9gW0pgSvjgq2obSYEPaqW08zaif82rVInM34wnv587OWAaOAVoNp7jmMCGIsddw75rS9LSW-zDnzvYNuwSwekTC0R9g";
