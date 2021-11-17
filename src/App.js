@@ -55,7 +55,7 @@ function App() {
           {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
       ) : (
-        <p>Fetching data....</p>
+        <p>Fetching data...</p>
       )}
 
       <Footer />
